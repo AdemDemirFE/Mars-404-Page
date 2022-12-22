@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700");
+@keyframes floating {
+  from {
+    transform: translateY(0px);
+  }
+  65% {
+    transform: translateY(15px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+html {
+  height: 100%;
+}
+body {
+  background-image: url("https://mars-404.netlify.app/img/star.svg"),
+  linear-gradient(to bottom, #05007a, #4d007d);
+  height: auto;
+  margin: 0;
+  background-attachment: fixed;
+  overflow: hidden;
+}
