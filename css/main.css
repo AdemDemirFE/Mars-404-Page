@@ -15,8 +15,8 @@ html {
 }
 body {
   background-image: url("https://mars-404.netlify.app/img/star.svg"),
-  linear-gradient(to bottom, #05007a, #4d007d);
-  height: auto;
+    linear-gradient(to bottom, #05007a, #4d007d);
+  height: 100%;
   margin: 0;
   background-attachment: fixed;
   overflow: hidden;
@@ -27,7 +27,8 @@ body {
   bottom: 0;
   position: absolute;
   height: 27vmin;
-  background: url("https://mars-404.netlify.app/img/mars.svg") no-repeat bottom center ;
+  background: url("https://mars-404.netlify.app/img/mars.svg") no-repeat bottom
+    center;
   background-size: cover;
 }
 .logo-404 {
@@ -47,17 +48,15 @@ body {
 .meteor {
   position: absolute;
   right: 2vmin;
-  top: 15vmin;
+  top: 16vmin;
 }
-
 .title {
   color: white;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   text-align: center;
-  font-size: 3.5vmin;
-  margin-top: -1vmin;
-  margin-bottom: 9vmin;
+  font-size: 5vmin;
+  margin-top: 31vmin;
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .title {
@@ -84,7 +83,7 @@ body {
 }
 .btn-back:hover {
   background: white;
-  color:#4d007d;
+  color: #4d007d;
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .btn-back {
@@ -94,22 +93,22 @@ body {
 .astronaut {
   position: absolute;
   top: 18vmin;
-  left: 18vmin;
+  left: 10vmin;
   height: 30vmin;
   animation: floating 3s infinite ease-in-out;
 }
-@media (max-width:480px) and (min-width: 320px) {
+@media (max-width: 480px) and (min-width: 320px) {
   .astronaut {
     top: 2vmin;
   }
 }
-.speaceship {
+.spaceship {
   position: absolute;
   bottom: 15vmin;
   right: 24vmin;
 }
 @media (max-width: 480px) and (min-width: 320px) {
-  .speaceship {
+  .spaceship {
     width: 45vmin;
     bottom: 18vmin;
   }
